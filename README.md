@@ -27,3 +27,7 @@ oc get templates
 oc new-app --template angular-web-app -p SOURCE_REPOSITORY_URL=https://github.com/sonneckGeorg/angular-10-jwt-refresh-tokens -p OUTPUT_DIR=dist/angular-jwt-refresh-tokens
 
 oc new-app --template angular-web-app -p SOURCE_REPOSITORY_URL=https://github.com/lholmquist/angular-web-app -p OUTPUT_DIR=dist/angular-web-app
+
+
+# TODO: TODO in angular-10-jwt-refresh-tokens: Multiple configs with configMap
+https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift/
